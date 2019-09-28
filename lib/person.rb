@@ -1,8 +1,3 @@
-
-
-
-# PERSON AND LIB/PERSON.RB
-
 class Person
   
   def name=(name)
