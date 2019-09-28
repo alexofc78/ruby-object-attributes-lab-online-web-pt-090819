@@ -1,58 +1,27 @@
 class Dog 
   
   def name = (dogs_name)
-    @this_dogs_name = dogs_name
+    @name = dogs_name
   end
-  #class Dog
-  
-#  def name=(dogs_name)
-#    @name = dogs_name
-#  end
+ 
   def name
-    @this_dogs_name
+    @name
   end
     
-#  def name
-#    @name 
-#  end
-#  def breed=(breed)
-#    @breed = breed
-#  end
-  name.instance_variable_get(:@name)
+#  name.instance_variable_get(:@name)
   
-   def breed = (dogs_breed)
-    @this_dogs_breed = dogs_breed
+  def breed = (breed)
+    @breed = breed
   end
   
   def breed
-    @this_dogs_breed
+    @breed
   end
   
-  breed.instance_variable_get(:@breed)
-  #  def breed
-#    @breed
-#  end 
-#end
+#  breed.instance_variable_get(:@breed)
+
 end
 
-
-#class Dog
-  
-#  def name=(dogs_name)
-#    @name = dogs_name
-#  end
-  
-#  def name
-#    @name 
-#  end
-#  def breed=(breed)
-#    @breed = breed
-#  end
-  
-#  def breed
-#    @breed
-#  end 
-#end
 
 
 
