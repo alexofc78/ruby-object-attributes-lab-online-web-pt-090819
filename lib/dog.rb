@@ -1,7 +1,7 @@
 class Dog 
   
-  def name = (dogs_name)
-    @name = dogs_name
+  def name= (dogs_name)
+    @name= dogs_name
   end
  
   def name
@@ -10,8 +10,8 @@ class Dog
     
 #  name.instance_variable_get(:@name)
   
-  def breed = (breed)
-    @breed = breed
+  def breed= (breed)
+    @breed= breed
   end
   
   def breed
